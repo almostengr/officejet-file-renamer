@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Officejet Duplex Scanning Renamer.exe" version="1.0.0.0" publicKeyToken="975cf34e949de9cf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Officejet Duplex Scanning Renamer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Officejet Duplex Scanning Renamer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Officejet Duplex Scanning Renamer.exe" size="26112">
+      <assemblyIdentity name="Officejet Duplex Scanning Renamer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1Fdnz9tE5Cvfvks3u9TtCpXUhKc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=THARAMPC\tharam04" issuerKeyHash="82aed6595f14c989b6f5b311f00c946d869791a9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3vPKwKoMrz4IHgBRw1JITgPVfR0=</DigestValue></Reference></SignedInfo><SignatureValue>YJ3MN/LqB3DpnQRQOQftjhjO3TzULJonSRSWVVVk5LpaenlxqNLAca1CQeHjD+9qUg5OHCZdLaIHBSM66oM4ch7CjTr71BJf0mzigo+LS/EDs0EDtyM00L8aJVvzyXAvFMO7vRm5zsgmwD9vhu2M3Kl9qkK4cOD2X8klzox3p7A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wnT9gfV11cA3nI/1R6QuNbbkbYKVD1YVNDmhvnHHAj8mYL3ZQ4rTfJ5fh02lg9XmDOsIB23otb2ks5Fzzze6nHN7DK0HFCpEdRNVhyFOVJL5zUQw8xmV40XOcwXJiDNFriCkzmaDK9WmNp88EV1B3f3ziS1h39MuatwWhcXzkDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1d7dd5034e4852c351001e083eaf0caac0caf3de" Description="" Url=""><as:assemblyIdentity name="Officejet Duplex Scanning Renamer.exe" version="1.0.0.0" publicKeyToken="975cf34e949de9cf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=THARAMPC\tharam04</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GSav25lp0RcbCBT/xuvx+DwgybI=</DigestValue></Reference></SignedInfo><SignatureValue>cioNg6paZxNHO6LFat4HjWZ3eFfPvRc9vLF4P0cy5c8pe6aoDtIqVGG37ud742Njdy4oi5+I3N6Tw9hRdIU9YqDmKZ0yygCww7W0PdWrWFwd0Jxg6heHUgMRQW5BG6ZOK3opIfHSe34U1Ubeb6TllR0M3BZbqHBclIf21DDEw3U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wnT9gfV11cA3nI/1R6QuNbbkbYKVD1YVNDmhvnHHAj8mYL3ZQ4rTfJ5fh02lg9XmDOsIB23otb2ks5Fzzze6nHN7DK0HFCpEdRNVhyFOVJL5zUQw8xmV40XOcwXJiDNFriCkzmaDK9WmNp88EV1B3f3ziS1h39MuatwWhcXzkDk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAUKgAwIBAgIQUS9Q1SaXPIRKD/5A2WGUWDAJBgUrDgMCHQUAMC0xKzApBgNVBAMeIgBUAEgAQQBSAEEATQBQAEMAXAB0AGgAYQByAGEAbQAwADQwHhcNMTEwMTE5MDYyNjQ5WhcNMTIwMTE5MTIyNjQ5WjAtMSswKQYDVQQDHiIAVABIAEEAUgBBAE0AUABDAFwAdABoAGEAcgBhAG0AMAA0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCdP2B9XXVwDecj/VHpC41tuRtgpUPVhU0OaG+cccCPyZgvdlDitN8nl+HTaWD1eYM6wgHbei1vaSzkXPPN7qcc3sMrQcUKkR1E1WHIU5UkvnNRDDzGZXjRc5zBcmIM0WuIKTOZoMr1aY2nzwRXUHd/fOJLWHf0y5q3BaFxfOQOQIDAQABMAkGBSsOAwIdBQADgYEAR3g3eGBSbDb/sOAjgfW4eWhqToodO/Z6CFf8tG5D0eD7YTDxNaeiodl/SU6/eKRwcf6IYiwd6GuApFqQP0pHDdEglTGXd3IurndPr+Vm+61lTJO4qHZZxF9d+x6oBXBE1C+V83kg4nIcBnzfL2sIp+eo5LfBuO0luRcxgkiep0M=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,14 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>D:\tharam04 Documents\KR Computing\Software\K Ram Scan Renamer\|D:\tharam04 Documents\KR Computing\Software\HP Scan Renamer\|C:\Documents and Settings\tharam04\Desktop\publish\|C:\Documents and Settings\tharam04\Desktop\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>http://krcomputers.bravehost.com/hpscan|http://krcomputers.bravehost.com</SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
